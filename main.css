@@ -1,0 +1,282 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Philosopher;
+}
+
+:root{
+  --overlay-opacity: linear-gradient(315deg, rgba(214, 230, 254, 0.25) 40%, rgba(214, 252, 254, 0.25) 100%);
+  --borders: #ff6060;
+  --white: #ffffff;
+  --shad:16px 56px 56px 0px rgba(63, 68, 73, 0.226);
+}
+
+.sec1{
+}
+
+
+.side-container{
+  width: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 1.5rem;
+  border-radius: 0rem 2.186rem 0rem 2.186rem;
+}
+
+.logo{
+}
+
+.side-elements-text {
+}
+
+.side-elements-text h1{
+}
+
+.side-elements-text p{
+  width: 33rem;
+}
+
+
+
+.bmi-card{
+  top: 20%;
+  left: 50%;
+  position:absolute;
+  background-color: white;
+  box-shadow: var(--shad);
+  border-radius: 1rem;
+  padding:2rem;
+}
+
+.heading-m{
+}
+.heading-s{
+}
+
+form{
+  display: flex;
+  gap: 2rem;
+}
+
+.radios{
+}
+
+.radio-box p{
+}
+
+.radio-box{
+  cursor: pointer;
+}
+
+.size-input{
+}
+
+.input-field{
+  margin-top: 0.4rem;
+  padding: 1rem 1.4rem;
+  width: 16rem;
+  border-radius: 0.75rem;
+  border: 2px solid #D8E2E7;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.attach, .input-field{
+  padding-bottom: 2rem;
+  box-sizing: border-box;
+}
+
+.imperial{
+  display: flex;
+  flex-direction: column;
+}
+
+.hide{
+  display: none !important;
+}
+
+.show{
+  display: block;
+}
+
+
+input[type="radio"]{
+  width: 2.2rem;
+  background-color: green;
+  border: 1px solid black;
+}
+
+input[type="radio"]:checked{
+  background-color: gray;
+}
+
+input[type="radio"]:hover{
+  cursor: pointer;
+  border-color: red;
+}
+
+input[type="radio"]::before{
+  content: "";
+  width: 15px;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em red;
+}
+
+input[type="radio"]:checked::before{
+  transform: scale(1);
+}
+
+.imperial-input{
+  display: flex;
+  gap: 2rem;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button{
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.attach::after{
+  content: attr(data-domain);
+  position: absolute;
+  top: 21%;
+  right: 10%;
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--blue);
+}
+
+.input-field::placeholder{
+  color: var(--gunmetal);
+  opacity: 0.25;
+}
+
+.input-field:focus{
+  outline: none;
+  border: 2px solid var(--blue) !important;
+}
+
+.results{
+  background: linear-gradient(90deg, #345ef65d 0%, #0037ff90 100%);
+}
+
+.results h5{
+}
+
+.calculated-answer{
+  background: linear-gradient(90deg, #345ef65d 0%, #0037ff90 100%);
+  border-radius: 0 52rem 52rem 0;
+  display: flex;
+  padding: 1rem;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bmi{
+}
+
+.bmi h1{
+}
+
+.bmi p{
+}
+
+.desc{
+  width: 14rem;
+}
+
+.body-m{
+}
+
+.body-s{
+}
+
+.heading-l{
+}
+
+.curve-left{
+}
+
+.curve-left img{
+}
+
+.bmi-meaning-container{
+}
+
+
+.bmi-meaning-container img{
+}
+
+
+.bmi-meaning-text{
+  justify-content: center;
+  width:50%;
+}
+
+.bmi-meaning-text h3{
+}
+
+.bmi-meaning-text p{
+}
+
+.inter-bold{
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: bold;
+}
+
+.space-imp-wel{
+  margin-top: 8%;
+  margin-bottom: 0%;
+}
+
+.space-imp-sp{
+  margin-top: 14%;
+}
+
+.steps{
+  border:2px solid rgb(45, 132, 255);
+}
+
+.steps img{
+}
+
+.steps h3{
+}
+
+.steps-container{
+}
+
+.steps-p{
+}
+
+.steps-p1{
+}
+
+.limitations{
+}
+
+.limitations-text{
+  width:30%;
+}
+
+.limitations-text p{
+}
+
+.limitations-card{
+  width:30%;
+  box-shadow: var(--shad);
+  border-radius: 1rem; 
+  height:fit-content;
+}
+.cards{
+}
+
+
+
+
+
